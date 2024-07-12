@@ -2,6 +2,7 @@
 
 /**
  * @file
+ * Contains iq…multidomain_theme_switch.module.
  */
 
 use Drupal\iq_multidomain_domain_theme_switch\Plugin\views\row\Pattern;

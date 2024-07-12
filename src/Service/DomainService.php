@@ -58,8 +58,8 @@ class DomainService {
     MessengerInterface $messenger,
     ConfigFactory $configFactory,
     EntityTypeManagerInterface $entity_type_manager,
-    ModuleHandlerInterface $module_handler
-    ) {
+    ModuleHandlerInterface $module_handler,
+  ) {
     $this->messenger = $messenger;
     $this->configFactory = $configFactory;
     $this->entityTypeManager = $entity_type_manager;
