@@ -103,8 +103,8 @@ function iq_multidomain_sitemap_extension_xmlsitemap_element_alter(array &$eleme
  *   The route parameters.
  * @param XmlSitemapInterface $sitemap
  *   The sitemap.
- * 
- * @return boolean
+ *
+ * @return bool
  *   True if target matches sitemap domain, false otherwise.
  */
 function _iq_multidomain_sitemap_extension_target_matches($params, $sitemap) {
