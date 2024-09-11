@@ -14,7 +14,8 @@
   "extra": {
     "patches": {
       "drupal/domain": {
-        "#3367785: Available on Current Domain doesn't instantiate": "https://www.drupal.org/files/issues/2023-06-21/3367785-domain-php8-boolean.patch"
+        "#3367785: Available on Current Domain doesn't instantiate": "https://www.drupal.org/files/issues/2023-06-21/3367785-domain-php8-boolean.patch",
+        "[https://dgo.to/3450485]: WSOD Undefined method DomainListBuilder::formBuilder": "https://www.drupal.org/files/issues/2024-05-29/3450485-domain-form-builder.patch"
       }
     }
   }
